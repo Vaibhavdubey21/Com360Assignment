@@ -1,0 +1,140 @@
+    body {
+        background: #F09819;
+        background: -webkit-linear-gradient(to right, #F09819, #F09819);
+        background: linear-gradient(to right, #F09819, #F09819);
+       
+    }
+    
+    .box p {
+        font-weight: bold;
+        font-size: medium;
+        text-align: center;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+    .box {
+        text-align: center;
+        background-color: white;
+        margin: 5px 55px;
+        justify-content: center;
+        border-radius: 5px;
+        align-items: center;
+        padding: 10px 5px;
+        height: 700px;
+        flex-direction: row;
+    }
+    
+    .foot {
+        color: blue;
+        font-weight: normal;
+        align-items: center;
+        bottom: -100;
+    }
+    
+    .contain {
+        margin-top: 10px;
+        display: flex;
+    }
+    
+    .text {
+        font-weight: 500;
+        text-align: left;
+        padding: 10px 0;
+        font-size: 15px;
+        height: 300px;
+        
+    }
+    
+    #digits {
+        margin-bottom: -10px;
+        font-size: 30px;
+    }
+    
+    #ex3 {
+        font-weight: lighter;
+    }
+    
+    #ex1,
+    #ex2,
+    #ex4 {
+        font-weight: lighter;
+        color: blue;
+    }
+    
+    #price {
+        background-color: rgba(95, 158, 160, 0.089);
+        /* padding: 10px; */
+        height: fit-content;
+        padding: 10px 0;
+    }
+    
+    #price p {
+        background-color: transparent;
+    }
+    
+    #skew {
+        width: 90px;
+        
+        background-color: #F09819;
+        margin-top: 30px;
+        left: -24px;
+        font-weight: bold;
+        position: absolute;
+        transform-origin: 0 0;
+        transform: rotate(-40deg);
+        border: none;
+        border-radius: 10px;
+    }
+    
+    
+    .carousel-indicators {
+        background-color: #F09819;
+        
+        width: 100%;
+    }
+    
+    .carousel-indicators li.active {
+        background-color: black;
+        color: black;
+        border: 1px solid rgb(15, 12, 12);
+    }
+    
+    .carousel-indicators li {
+        background-color: rgb(41, 39, 39);
+    }
+    
+    #myCarousel {
+        width: auto;
+        margin: 0 auto;
+        height: 660px;
+    }
+    
+    #promise {
+        padding: 50px;
+        display: none;
+        text-overflow: clip;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .item {
+        /* height: 400px; */
+        margin: 0 auto;
+    }
+    
+    @media screen and (max-width:1080px) {
+        .containing-div {
+            display: none;
+        }
+        #promise {
+            /* padding-top: 100px; */
+            margin: 0 auto;
+            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            right: 0;
+        }
+       
+    }
